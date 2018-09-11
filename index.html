@@ -13,8 +13,21 @@
       <input id="email" type="email" required>
     </label>
     <label id="number-label">Number
-      <input id="number" type="number" required pattern="[0-150]">
+      <input id="number" type="number" required min="1" max="150">
     </label>
-    
+    <select id="dropdown">
+      <option value="me">Me</option>
+      <option value="myself">Myself</option>
+      <option value="i">I</option>
+    </select>
+    <input id="hello" type="radio" name="hello world!" value="hello">
+    <label for="hello">Hello</label>
+    <input id="world" type="radio" name="hello world!" value="world">
+    <label for="world">world</label>
+    <input id="!" type="radio" name="hello world!" value="!">
+    <label for="!">!</label>
+    <input type="checkbox" name="bicycle" value="Bike"> I have a bike
+    <input type="checkbox" name="car" value="Car"> I have a car
+    <input type="checkbox" name="boat" value="Boat"> I have a boat
   </form>
 </main>

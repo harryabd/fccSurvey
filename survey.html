@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="survey.css" type="text/css">
+</head>
+<main id="main">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill the survey in</p>
+  <form id="survey-form">
+    <label id="name-label">Name
+      <input id="name" type="text" required>
+    </label>
+    <label id="eamil-label">Email
+      <input id="email" type="email" required>
+    </label>
+    <label id="number-label">Number
+      <input id="number" type="number" required pattern="[0-150]">
+    </label>
+    
+  </form>
+</main>

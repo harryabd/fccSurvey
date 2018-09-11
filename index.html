@@ -9,17 +9,19 @@
     <label id="name-label">Name
       <input id="name" type="text" required>
     </label><br>
-    <label id="eamil-label">Email
+    <label id="email-label">Email
       <input id="email" type="email" required>
     </label><br>
     <label id="number-label">Number
       <input id="number" type="number" required min="1" max="150">
     </label><br>
-    <select id="dropdown">
-      <option value="me">Me</option>
-      <option value="myself">Myself</option>
-      <option value="i">I</option>
-    </select><br>
+    <label id="person-label">Who are you?
+      <select id="dropdown">
+        <option value="me">Me</option>
+        <option value="myself">Myself</option>
+        <option value="i">I</option>
+      </select>
+    </label><br>
     <input id="hello" type="radio" name="hello world!" value="hello">
     <label for="hello">Hello</label><br>
     <input id="world" type="radio" name="hello world!" value="world">
@@ -29,5 +31,9 @@
     <input type="checkbox" name="bicycle" value="Bike"> I have a bike<br>
     <input type="checkbox" name="car" value="Car"> I have a car<br>
     <input type="checkbox" name="boat" value="Boat"> I have a boat<br>
+    <label id="comments-label">Additional comments: <br>
+      <textarea rows="4" cols="50"></textarea>
+    </label>
+    <button type="submit" id="submit">Submit!</button>
   </form>
 </main>
